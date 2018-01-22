@@ -21,15 +21,7 @@ public class BeerSong {
     }
     
     public static void Ninety_Nine_Bottles_of_Beer(int i){ //Displays the lyrics for the song
-        System.out.print(i + " bottles of beer on the wall, " + i + " bottles of beer\ntake one down pass it around, ");
-        if(i == 2){
-            System.out.print((i - 1) + " bottle of beer on the wall\n");
-        }else if(i == 1){
-           System.out.print("no more bottle of beer on the wall\n"); 
-        }
-        else{
-            System.out.print((i - 1) + " bottles of beer on the wall\n");
-        }
+
     }
     
 }
